@@ -1,0 +1,1 @@
+_MonthEnd=LAMBDA(startYear,numMonths,      EOMONTH(DATE(startYear, SEQUENCE(numMonths), 1), 0) );
